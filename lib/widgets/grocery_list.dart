@@ -65,7 +65,7 @@ class _GroceryListState extends State<GroceryList> {
       });
     } catch (e) {
       setState(() {
-      _error = 'Something went wrong!. Please try again later';
+      _error = 'Something went wrong! Please try again later';
         
       });
     }
